@@ -1,6 +1,6 @@
-# pubsub
+# PubSub
 
-PubSub
+Event emitter
 
 ## Install
 
