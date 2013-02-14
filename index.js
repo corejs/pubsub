@@ -1,6 +1,4 @@
-module.exports = pubsub;
-
-var pubsub = function () {
+var pubsub = module.exports = function () {
   return new PubSub();
 };
 

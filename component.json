@@ -2,7 +2,7 @@
   "name": "pubsub",
   "repo": "corejs/pubsub",
   "description": "pubsub",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {},
   "scripts": ["index.js"],
   "keywords": ["pubsub"],
