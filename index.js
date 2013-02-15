@@ -1,10 +1,8 @@
-var pubsub = module.exports = (function () {
-  new PubSub();
-})();
-
 var PubSub = function () {
   this.handlers = {};
 };
+
+var pubsub = module.exports = new PubSub();
 
 PubSub.prototype.on = function (event, handler) {
   if(!has(this.handlers, event)) {
