@@ -1,4 +1,6 @@
-var pubsub = module.exports = new PubSub();
+var pubsub = module.exports = (function () {
+  new PubSub();
+})();
 
 var PubSub = function () {
   this.handlers = {};
